@@ -1,0 +1,20 @@
+url: 'http://overpass-api.de/api/interpreter' #adresa api
+update: false
+
+dirs:
+	output: 'output'
+	queries: 'queries'
+
+tiles:
+	lat:
+		min: 0
+		max: 4
+		step: 2
+	lon:
+		min: -70
+		max: -60
+		step: 2
+
+	
+    
+

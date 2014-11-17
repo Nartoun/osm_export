@@ -1,0 +1,8 @@
+{
+    "require": {
+        "kdyby/curl": "v2.2.0",
+	"nette/robot-loader": "v2.2.1",
+	"nette/neon": "v2.2.3"
+	
+    }
+}
