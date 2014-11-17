@@ -1,5 +1,6 @@
 vendor/*
 output/*
 temp/*
+nbproject/*
 lastTile.backup
 composer.lock
