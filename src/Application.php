@@ -93,7 +93,7 @@ class Application {
 	$data = $response->getResponse();
 	$xml = simplexml_load_string($data);
 	$count = $xml->count();
-	if ($count > 2) {
+	if ($count > 2 || $this->config['saveEmpty']) {
 	    file_put_contents($filePathName, $data);
 	    $this->tileSaved++;
 	    return TRUE;

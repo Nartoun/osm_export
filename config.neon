@@ -1,5 +1,6 @@
 url: 'http://overpass-api.de/api/interpreter' #adresa api
 update: false
+saveEmpty: true
 
 dirs:
 	output: 'output'
@@ -7,12 +8,12 @@ dirs:
 
 tiles:
 	lat:
-		min: 0
-		max: 4
+		min: -90
+		max: 90
 		step: 2
 	lon:
-		min: -70
-		max: -60
+		min: -180
+		max: 180
 		step: 2
 
 	
